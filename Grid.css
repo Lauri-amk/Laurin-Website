@@ -1,0 +1,35 @@
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+    border-radius:0px 20px 20px 0px;
+}
+
+footer {
+ position: relative;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  padding: 20px;
+  background-color: blueviolet;
+  color: darkblue;
+  text-align: left;
+  border-radius: 0px 5px 5px 0px;
+}
+
+h1, h2, h3, h4 {
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 12;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+
+

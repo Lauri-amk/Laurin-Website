@@ -1,0 +1,99 @@
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+    border-radius:0px 20px 20px 0px;
+}
+
+footer {
+ position: relative;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  padding: 20px;
+  background-color: blueviolet;
+  color: darkblue;
+  text-align: left;
+  border-radius: 0px 5px 5px 0px;
+}
+
+img:active {
+    position: relative;
+    top: 50%;
+    left: 0;
+     transform: translate(20%, 20%) scale(2);
+}
+
+ul {
+  padding: 15px;
+}
+
+h1, h2, h3, h4 {
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+p {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+@keyframes Nu {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Hi-Nu {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.wrapper img:first-child {
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+  animation: Nu 15s infinite;  
+}
+
+.wrapper img:last-child {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation: Hi-Nu 15s infinite;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+
+
